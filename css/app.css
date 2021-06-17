@@ -2,7 +2,7 @@
 html,body{height:100%;scroll-behavior:smooth}
 body{display:flex;flex-direction:column;flex-wrap:nowrap}
 
-/* CSS Loader #11 by Nitin - https://codepen.io/Nitin-Chandran-Nair/full/jmQgWW */
+
 .loader {margin:0 auto;height: 20px;width: 20px;animation: shine 970ms ease infinite;transform: rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg)}
 @keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
 @-webkit-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
