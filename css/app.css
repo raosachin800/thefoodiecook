@@ -52,8 +52,12 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;}
 .mealMetadata ul{margin-bottom:0}
 
 /* Meal */
-.mealMetadata span,.mealInstructions span{margin-right:20px;font-weight:bold;text-transform:uppercase}
+.mealMetadata span,.mealInstructions span{margin-top:20px;margin-right:20px;font-weight:bold;text-transform:uppercase}
 .mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
+
+.mealInstructions{
+    margin-top: 2rem;
+}
 
 /* Nav */
 .navbar{padding:10px 0}
@@ -83,7 +87,10 @@ main{justify-content:center;align-items:center}
     .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
 }
 @media (min-width: 750px) {
-    .navbar-list {list-style:none;margin-bottom: 0}
+    .navbar-list {list-style:none;margin-bottom: 0;color: #679f38;}
+    .navbar-list a{
+        color: #679f38;
+    }
 }
 @media (min-width: 750px) {
     .navbar-item {position:relative;display:inline}
@@ -93,6 +100,49 @@ main{justify-content:center;align-items:center}
 }
 @media (min-width: 750px){
     .navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black}
+}
+
+@media (max-width:575px){
+    .brand-a{
+        text-align: right;
+    }
+    .end{
+        text-align: right;
+    }
+    .end ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .end ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+    .list-recipe{
+        text-align: left !important;
+    }
+    .list-recipe ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+    .list-recipe ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+}
+@media (min-width:575px){
+    .list-recipe{
+        text-align: center !important;
+    }
+    .list-recipe ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+    .list-recipe ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
 }
 
 
@@ -105,7 +155,7 @@ main{justify-content:center;align-items:center}
 .button hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
 #about-section{height:80vh;padding-top:20vh;}
-.brand{font-size:5vw;font-weight:700}
+.brand{font-size:4vw;font-weight:700}
 .brand focus,.brand hover,.brand visited{color:#000}
 @media (min-width:440px){
 .brand{font-size:3vw}
